@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.block_wrap {
+    border: 1px solid black;
+    /* height: 500px; */
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.block_elem {
+    border: 1px solid rgb(44, 11, 104);
+    height: 150px;
+    width: 150px;
+    background-color: chartreuse;
+    display: block;
+}
+
+.button {
+    height: 30px;
+    width: 100px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.block_0f {
+    display: none;
+}
+
+.wrapComentS {
+    width: 90%;
+    border: 1px solid rgb(104, 11, 68);
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 300ms;
+}
+
+.wrapTitle {
+    width: 90%;
+    border: 1px solid rgb(11, 104, 16);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    overflow: hidden;
+    transition: 300ms;
+}
+
+.wrapBodiCom {
+    width: 90%;
+    border: 1px solid rgb(250, 234, 14);
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    overflow: hidden;
+    transition: 300ms;
+}
+
+.messWar {
+    width: 90%;
+    border: 1px solid rgb(238, 8, 19);
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: red;
+}
+
+.inpBed {
+    background-color: red;
+}
+
+.messRez {
+    display: none;
+    width: 90%;
+    border: 1px solid rgb(238, 8, 19);
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: red;
+}
